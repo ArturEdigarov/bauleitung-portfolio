@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ink: 247 243 232;
+  --color-panel: 239 232 214;
+  --color-line: 221 210 181;
+  --color-parchment: 34 29 21;
+  --color-muted: 115 106 86;
+  --color-brass: 138 101 53;
+  --color-brass-light: 169 121 63;
+
+  /* оттенки для заглушек фото без картинки */
+  --ph-1: 239 232 214;
+  --ph-2: 230 220 194;
+  --ph-3: 217 204 166;
+}
+
+.dark {
+  --color-ink: 19 18 15;
+  --color-panel: 27 25 20;
+  --color-line: 54 50 41;
+  --color-parchment: 236 230 216;
+  --color-muted: 163 154 136;
+  --color-brass: 163 121 63;
+  --color-brass-light: 199 154 92;
+
+  --ph-1: 40 37 31;
+  --ph-2: 27 25 20;
+  --ph-3: 19 18 15;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(var(--color-ink));
+  color: rgb(var(--color-parchment));
+}
+
+/* единая, сдержанная анимация при смене темы и при ховерах,
+   без необходимости прописывать transition в каждом компоненте */
+@layer base {
+  * {
+    transition-property: background-color, border-color, color, box-shadow, transform;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+::selection {
+  background-color: rgb(var(--color-brass-light));
+  color: rgb(var(--color-ink));
+}
+
+/* видимый фокус для доступности */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid rgb(var(--color-brass));
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
