@@ -37,7 +37,7 @@ export default function Navbar() {
           )}
 
           {!isHome && (
-            <Link to="/" className="font-body text-sm text-muted hover:text-parchment">
+            <Link to="/#portfolio" className="font-body text-sm text-muted hover:text-parchment" >
               ← Alle Projekte
             </Link>
           )}
