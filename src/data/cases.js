@@ -16,13 +16,14 @@ export const cases = [
       '/cases/projekt-3-4.jpg',
       '/cases/projekt-3-5.jpg',
       '/cases/projekt-3-6.jpg',
+      '/cases/projekt-3-7.png',
     ],
     shortDescription: '',
     fullDescription:
       'Für dieses Unternehmen haben wir ein modernes und funktionales Bürokonzept im markanten Industrial-Stil realisiert. Das Design verbindet raue Elemente wie unverputzten Sichtbeton, schwarze Lüftungskanäle und Metallstrukturen mit charakteristischen Firmenakzenten in Rot. Die offene Raumaufteilung fördert die Teamarbeit, während ergonomische Arbeitsplätze und stilvolle Konferenzbereiche eine professionelle und zugleich kreative Arbeitsatmosphäre schaffen. Ein absoluter Blickfang ist die massiv gestaltete Rezeption im Beton-Look.',
     specs: [
-      { label: 'Fläche', value: '450 m²' },
-      { label: 'Dauer', value: '18 Monate' },
+      { label: 'Fläche', value: '250 m²' },
+      { label: 'Dauer', value: '15 Monate' },
       { label: 'Leistungsumfang', value: 'Innenausbau & Interieur' },
     ],
   },
@@ -35,17 +36,25 @@ export const cases = [
     coverImage: '/cases/projekt-1:1.jpg',
     images: [
       '/cases/projekt-1-2.jpg',
-      '/cases/projekt-1-3.jpg',
+      '/cases/projekt-1-3.jpg.png',
       '/cases/projekt-1-4.jpg',
       '/cases/projekt-1-5.jpg',
+      '/cases/projekt-1-6.jpg.png',
+      '/cases/projekt-1-7.png',
+      '/cases/projekt-1-8.png',
+      '/cases/projekt-1-9.png',
+      '/cases/projekt-1-10.png',
+      '/cases/projekt-1-11.jpg',
+
+
     
     ],
     shortDescription: '',
     fullDescription:
       "Für diesen Kunden haben wir ein einzigartiges Interieur im modernen Industrial-Stil in einer Luxus-Wohnanlage realisiert. Das Konzept verbindet raue Elemente wie unverputzten Sichtbeton, Ziegelwände und schwarze Metallstrukturen mit warmer Eiche und gemütlichen Textilien. Das offene Raumkonzept vereint Wohnen, Küche und Essbereich zu einer harmonischen Einheit. Maßgefertigte Möbel, durchdachte offene Regalsysteme aus Metall und Akzentbeleuchtung unterstreichen den urbanen Charakter des Appartements und schaffen gleichzeitig ein Höchstmaß an Wohnkomfort",
     specs: [
-      { label: 'Fläche', value: '180 m²' },
-      { label: 'Dauer', value: '17 Monate' },
+      { label: 'Fläche', value: '110 m²' },
+      { label: 'Dauer', value: '12 Monate' },
       { label: 'Leistungsumfang', value: 'Innenausbau & Interieur' },
     ],
   },
@@ -61,7 +70,6 @@ export const cases = [
       '/cases/projekt-2-3.jpg',
       '/cases/projekt-2-4.jpg',
       '/cases/projekt-2-5.jpg',
-      '/cases/projekt-2-6.jpg',
     ],
     shortDescription: '',
     fullDescription:
@@ -83,15 +91,65 @@ export const cases = [
     images: [
       '/cases/projekt-4-2.jpg',
       '/cases/projekt-4-3.jpg',
-      '/cases/projekt-4-4.jpg',
+      '/cases/projekt-4-4.jpg', 
       '/cases/projekt-4-5.jpg',
+      '/cases/projekt-4-6.png',
+      '/cases/projekt-4-7.png',
+      // '/cases/projekt-4-8.png',
+      // '/cases/projekt-4-9.png',
     ],
     shortDescription: '',
     fullDescription:
       'Bei diesem Projekt haben wir eine stilvolle und funktionale Innenraumgestaltung für eine moderne Stadtwohnung realisiert. Das Konzept basiert auf klaren Linien, minimalistischen Formen und einem ausdrucksstarken Farbkonzept aus neutralen Grautönen und warmen Gelbakzenten. Das Herzstück des offenen Wohnbereichs ist eine maßgefertigte Küche mit nahtlos integrierter Kochinsel und Holzesstisch. Die TV-Wand mit vertikalen Lamellenpaneelen und das modulare Sofa sorgen für eine gemütliche und zugleich hochmoderne Atmosphäre. Auch im Badezimmer setzt sich das harmonische Farbspiel fort.',
     specs: [
-      { label: 'Fläche', value: '60 m²' },
-      { label: 'Dauer', value: '14 Monate' },
+      { label: 'Fläche', value: '115 m²' },
+      { label: 'Dauer', value: '13 Monate' },
+      { label: 'Leistungsumfang', value: 'Innenausbau & Interieur' },
+    ],
+  },
+
+{
+    id: 'projekt-5',
+    title: 'Modernes Apartment im natürlichen Design',
+    location: 'Charkiw, „Shatilovka“',
+    year: '2020',
+    category: 'Stadtwohnung',
+    coverImage: '/cases/projekt-5-1.png',
+    images: [
+      '/cases/projekt-5-1.png',
+      '/cases/projekt-5-2.png',
+      '/cases/projekt-5-3.png',
+      '/cases/projekt-5-4.png',
+    ],
+    shortDescription: '',
+    fullDescription:
+      "Bei diesem Projekt haben wir eine stilvolle und funktionale Innenraumgestaltung für ein modernes Wohnhaus realisiert. Das Konzept basiert auf einer harmonischen Kombination aus natürlichen Holztexturen, klaren Linien und eleganten Grautönen. Das Herzstück des offenen Wohnbereichs ist die maßgefertigte Holzvertäfelung, die sich nahtlos vom Küchen- und Essbereich bis in den Wohnraum erstreckt.\\n\\nEine durchdachte Beleuchtung mit minimalistischen Pendelleuchten und integrierten Spots sowie weiche Textilien sorgen für eine gemütliche und zugleich hochmoderne Atmosphäre.",
+    specs: [
+      { label: 'Fläche', value: '110 m²' },
+      { label: 'Dauer', value: '12 Monate' },
+      { label: 'Leistungsumfang', value: 'Innenausbau & Interieur' },
+    ],
+  },
+
+  {
+    id: 'projekt-6',
+    title: 'Modernes Loft mit ausdrucksstarkem Design',
+    location: 'Charkiw, „Ultra“',
+    year: '2021',
+    category: 'Stadtwohnung',
+    coverImage: '/cases/projekt-6-1.jpg',
+    images: [
+      '/cases/projekt-6-2.jpg',
+      '/cases/projekt-6-3.png',
+      '/cases/projekt-6-4.png',
+      '/cases/projekt-6-5.png',
+    ],
+    shortDescription: '',
+    fullDescription:
+      "Bei diesem Projekt haben wir ein großzügiges und lichtdurchflutetes Wohnzimmer im modernen Loft-Stil realisiert. Das Designkonzept zeichnet sich durch den Kontrast zwischen rauen Beton- und Metallelementen sowie warmen Holztexturen aus. Ein besonderer Blickfang ist das smaragdgrüne modulare Sofa, das als eleganter Farbakzent im Raum dient.Große Panoramafenster, eine maßgefertigte Metallregalwand und eine дизайнерische Pendelleuchte verleihen dem Raum eine luftige, stilvolle und zugleich gemütliche Atmosphäre.",
+    specs: [
+      { label: 'Fläche', value: '106 m²' },
+      { label: 'Dauer', value: '11 Monate' },
       { label: 'Leistungsumfang', value: 'Innenausbau & Interieur' },
     ],
   },
