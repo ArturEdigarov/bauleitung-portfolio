@@ -58,7 +58,7 @@ export const profile = {
       description: 'Weiterbildung, IBB.',
     },
     {
-      period: '12/2023 — 09/2024',
+      period: '02/2025 — 08/2025',
       place: 'Hameln, Deutschland',
       title: 'Berufsbezogener Deutschsprachkurs (B2)',
       description: 'VHS Hameln-Pyrmont.',
